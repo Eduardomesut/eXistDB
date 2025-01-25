@@ -1,3 +1,4 @@
-com/ExistDBCollectionManagement.class
-com/ExistDBConnection.class
-com/ExistDBCreacionBorradoDocumentos.class
+com\ExistDBConnection.class
+xqj\XQJ_Consulta.class
+com\ExistDBCreacionBorradoDocumentos.class
+com\ExistDBCollectionManagement.class

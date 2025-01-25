@@ -38,6 +38,8 @@ public class XQJ_Consulta {
         XQConnection c = null;
         try {
             c = obtenConexion();
+            System.out.println("Conexión establecida correctamente.");
+
             // Corrección de la consulta XQuery
             String cad = "for $n in doc('/db/pruebas/Clientes.xml')//cliente return $n/apellidos";
             String cad2 = "for $n in doc('/db/pruebas/Clientes.xml')/clientes/cliente "

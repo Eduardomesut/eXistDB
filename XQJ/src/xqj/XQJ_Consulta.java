@@ -43,6 +43,7 @@ public class XQJ_Consulta {
         XQConnection c = null;
         try {
             c = obtenConexion();
+            System.out.println("Conexión establecida correctamente.");
             // Corrección de la consulta XQuery
             String cad = "for $dept in distinct-values(doc('/db/pruebas/company.xml')/company/employees/employee/department)\n"
                     + "let $average := avg(doc('/db/pruebas/company.xml')/company/employees/employee[department = $dept]/salary)\n"
@@ -64,12 +65,24 @@ public class XQJ_Consulta {
             String cad4 = "for $n in doc('/db/pruebas/Clientes.xml')/clientes/cliente "
                     + "where substring($n/CP, 1, 2) = '29' "
                     + "return concat($n/apellidos, '-', string($n/@DNI))";
+            
+            String cad5 = "for $apellido in doc('/db/pruebas/Clientes.xml')//clientes/cliente/apellidos return $apellido/text()";
+            String cad6 = "for $n in doc('/db/pruebas/Clientes.xml')//cliente return $n/apellidos";
+            String cad7 = """
+                          for $cliente in doc('/db/pruebas/Clientes.xml')//clientes/cliente
+                          return 
+                              <cliente>
+                                  <apellidos>{$cliente/apellidos/text()}</apellidos>
+                                  <CP>{$cliente/CP/text()}</CP>
+                              </cliente>
+                          """;
             XQExpression xqe = c.createExpression();
-            XQResultSequence xqrs = xqe.executeQuery(cad3);
+            XQResultSequence xqrs = xqe.executeQuery(cad7);
 
             int i = 1;
+            System.out.println(xqrs.toString());
             while (xqrs.next()) {
-
+                
                 System.out.println("Resultado " + (i++) + ":");
                 // Aquí utilizamos getItem() para obtener un XQItemAccessor
                 XQItemAccessor item = xqrs.getItem();
