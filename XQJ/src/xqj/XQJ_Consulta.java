@@ -76,8 +76,25 @@ public class XQJ_Consulta {
                                   <CP>{$cliente/CP/text()}</CP>
                               </cliente>
                           """;
+            String cad8 = """
+                          for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                          where $empleado/number(salary) > 70000
+                          return $empleado/name
+                          """;
+            String cad9 = """
+                          for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                          let $departamento := $empleado/department
+                          return concat($empleado/name,' ',count($departamento))
+                          """;
+            String cad10 = """
+                          for $departamento in distinct-values(doc('/db/pruebas/company.xml')//company/employees/employee/department)
+                          let $numeroempleados := count(for $empleados in doc('/db/pruebas/company.xml')//company/employees/employee
+                          where $empleados/department = $departamento
+                          return $empleados)
+                          return concat($departamento, ':', $numeroempleados)
+                          """;
             XQExpression xqe = c.createExpression();
-            XQResultSequence xqrs = xqe.executeQuery(cad7);
+            XQResultSequence xqrs = xqe.executeQuery(cad10);
 
             int i = 1;
             System.out.println(xqrs.toString());
