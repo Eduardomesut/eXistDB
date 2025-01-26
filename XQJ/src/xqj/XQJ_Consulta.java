@@ -86,6 +86,7 @@ public class XQJ_Consulta {
                           let $departamento := $empleado/department
                           return concat($empleado/name,' ',count($departamento))
                           """;
+            //Contar el número total de empleados en cada departamento
             String cad10 = """
                           for $departamento in distinct-values(doc('/db/pruebas/company.xml')//company/employees/employee/department)
                           let $numeroempleados := count(for $empleados in doc('/db/pruebas/company.xml')//company/employees/employee
@@ -93,8 +94,32 @@ public class XQJ_Consulta {
                           return $empleados)
                           return concat($departamento, ':', $numeroempleados)
                           """;
+            //Obtener el salario promedio por departamento
+            String cad11 = """
+                           for $departamento in distinct-values (doc('/db/pruebas/company.xml')//company/employees/employee/department)
+                           let $total := sum(for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                           where $empleado/department = $departamento return $empleado/salary)
+                           let $numero := count(for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                           where $empleado/department = $departamento return $empleado)
+                           let $media := $total div $numero
+                           return concat ($departamento, '-Media salario= ', $media)
+                           """;
+            //Crear un listado de empleados ordenado por salario descendente
+            String cad12 = """
+                            for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                            order by $empleado/salary descending
+                            return $empleado                          
+                            """;
+            
+//            Obtener los nombres de los empleados cuyo nombre comienza con 'A'
+//            Contar cuántos empleados tienen un salario menor a 50,000.
+//            Listar los nombres y apellidos de los empleados que trabajan en el departamento 'Ventas'.
+//            Obtener el nombre del empleado con el salario más alto.
+//            Listar los empleados con un salario mayor que el promedio de todos los empleados.
+//            Listar los empleados y el porcentaje que representa su salario en el total de salarios.
+
             XQExpression xqe = c.createExpression();
-            XQResultSequence xqrs = xqe.executeQuery(cad10);
+            XQResultSequence xqrs = xqe.executeQuery(cad11);
 
             int i = 1;
             System.out.println(xqrs.toString());
