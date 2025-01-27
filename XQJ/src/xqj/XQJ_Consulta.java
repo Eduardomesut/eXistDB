@@ -141,13 +141,26 @@ public class XQJ_Consulta {
             
             
 //            Listar los empleados con un salario mayor que el promedio de todos los empleados.
-//            Listar los empleados y el porcentaje que representa su salario en el total de salarios.
+            String cad17 = """
+                            let $sumaSueldo := sum(for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee/salary return $empleado)
+                                  let $numEmpleados := count(for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee return $empleado)
+                                  let $media := ($sumaSueldo div $numEmpleados)
+                                  for $empleados in doc('/db/pruebas/company.xml')//company/employees/employee
+                                  where $empleados/salary > $media return $empleados      
+                            """;
 
+//            Listar los empleados y el porcentaje que representa su salario en el total de salarios.
+            String cad18 = """
+                           let $sumaSalarios := sum(for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee/salary return $empleado)
+                           for $empleados in doc('/db/pruebas/company.xml')//company/employees/employee
+                           let $porcentaje := ($empleados/salary div $sumaSalarios)*100
+                           return concat($empleados/name, ' su salario ocupa el ', $porcentaje, '% del total de los salarios que es ', $sumaSalarios)
+                           """;
 
 
 
             XQExpression xqe = c.createExpression();
-            XQResultSequence xqrs = xqe.executeQuery(cad11);
+            XQResultSequence xqrs = xqe.executeQuery(cad18);
 
             int i = 1;
             System.out.println(xqrs.toString());
