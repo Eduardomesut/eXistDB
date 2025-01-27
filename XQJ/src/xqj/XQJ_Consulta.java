@@ -112,11 +112,39 @@ public class XQJ_Consulta {
                             """;
             
 //            Obtener los nombres de los empleados cuyo nombre comienza con 'A'
+            String cad13 = """
+                            for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                                                   where starts-with($empleado/name, 'A')
+                                                   return $empleado/name                       
+                            """;
+            
 //            Contar cuántos empleados tienen un salario menor a 50,000.
+            String cad14 = """
+                            let $num := count(for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                                                 where $empleado/salary < 50000 return $empleado) 
+                                                 return $num                     
+                            """;
 //            Listar los nombres y apellidos de los empleados que trabajan en el departamento 'Ventas'.
+            String cad15 = """
+                          for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                                              where $empleado/department = ('Finance')
+                                              return $empleado/name                    
+                            """;
 //            Obtener el nombre del empleado con el salario más alto.
+            String cad16 = """
+                          let $maximo := max(for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee/salary return $empleado)
+                                             let $empleadoMax := for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee
+                                             where $empleado/salary = $maximo return $empleado
+                                             return concat('Nombre del empleado con salario máximo: ', $empleadoMax/name, ' y gana: ', $maximo)                   
+                            """;
+            
+            
+            
 //            Listar los empleados con un salario mayor que el promedio de todos los empleados.
 //            Listar los empleados y el porcentaje que representa su salario en el total de salarios.
+
+
+
 
             XQExpression xqe = c.createExpression();
             XQResultSequence xqrs = xqe.executeQuery(cad11);
