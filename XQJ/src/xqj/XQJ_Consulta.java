@@ -156,11 +156,30 @@ public class XQJ_Consulta {
                            let $porcentaje := ($empleados/salary div $sumaSalarios)*100
                            return concat($empleados/name, ' su salario ocupa el ', $porcentaje, '% del total de los salarios que es ', $sumaSalarios)
                            """;
-
+            
+            //Listar los departamentos y, para cada uno, el nombre del empleado con el salario más alto.
+            String cad19 = """
+                           for $departamento in distinct-values (doc('/db/pruebas/company.xml')//company/employees/employee/department)
+                           let $salarioMayor := max(for $sueldo in doc('/db/pruebas/company.xml')//company/employees/employee where $sueldo/department = $departamento return $sueldo/salary)
+                           let $empleadoMayor := for $empleado in doc ('/db/pruebas/company.xml')//company/employees/employee
+                           where $empleado/department = $departamento and $empleado/salary = $salarioMayor return $empleado
+                           return concat($departamento,': ', $empleadoMayor/name)
+                           """;
+            //Generar un listado de departamentos con el número total de empleados en cada uno.
+            String cad20 = """
+                           for $departamento in distinct-values (doc('/db/pruebas/company.xml')//company/employees/employee/department)
+                           let $cuenta := count(for $empleado in doc('/db/pruebas/company.xml')//company/employees/employee where $empleado/department = $departamento return $empleado)
+                           return concat($departamento, ' tiene un total de ', $cuenta, ' empleados')
+                           """;
+            //para cada departamento, una lista de los empleados ordenados por salario de manera descendente.
+            String cad21 = """
+                           
+                           """;
+            //empleados cuyo nombre empieza con la letra "J" y cuyo salario sea menor a 70,000.
 
 
             XQExpression xqe = c.createExpression();
-            XQResultSequence xqrs = xqe.executeQuery(cad18);
+            XQResultSequence xqrs = xqe.executeQuery(cad19);
 
             int i = 1;
             System.out.println(xqrs.toString());
