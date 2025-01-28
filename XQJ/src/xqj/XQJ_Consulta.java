@@ -177,6 +177,8 @@ public class XQJ_Consulta {
                            """;
             //empleados cuyo nombre empieza con la letra "J" y cuyo salario sea menor a 70,000.
 
+            
+            //Crear tambien método update que actualice el xml
 
             XQExpression xqe = c.createExpression();
             XQResultSequence xqrs = xqe.executeQuery(cad19);
