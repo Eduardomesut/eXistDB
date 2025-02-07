@@ -88,31 +88,40 @@ public class ExistDBConsultas {
             
             //Mediante la API XQj, detectar si hay alguna novela repetida e identificarlas, sacar resultado por pantalla. 
             String cad8 = """
-                          for $libros in doc(/db/instituto/biblioteca/novelas/Catalogo.xml)//catalogo/libro/titulo
-                          let $contador := count(for $repe in doc(/db/instituto/biblioteca/novelas/Catalogo.xml)//catalogo/libro/titulo
-                          where $repe = $libros return $repe)
-                          return concat('El libro ', $libros, ' esta repetido ', $contador, ' veces')
+                          for $titulo in distinct-values(doc("/db/instituto/biblioteca/novelas/Catalogo.xml")//catalogo/libro/titulo)
+                          
+                          let $contador := count(
+                              for $repe in doc("/db/instituto/biblioteca/novelas/Catalogo.xml")//catalogo/libro/titulo
+                              where $repe = $titulo
+                              return $repe)
+                          where $contador > 1 return concat('El libro "', $titulo, '" está repetido ', $contador, ' veces')
                           """;
 
             
             XQExpression xqe = c.createExpression();
+            
             //Para modificaciones
-            xqe.executeCommand(cad6);
+            //xqe.executeCommand(cad6);
             //Para consultas
-            XQResultSequence xqrs = xqe.executeQuery(cad7);
-
-            int i = 1;
-            System.out.println(xqrs.toString());
-            while (xqrs.next()) {
-
-                System.out.println("Resultado " + (i++) + ":");
-                // Aquí utilizamos getItem() para obtener un XQItemAccessor
-                XQItemAccessor item = xqrs.getItem();
-                // Luego obtenemos el resultado como una cadena
-                String resultado = item.getItemAsString(null); // No es necesario pasar un Properties
-                System.out.println(resultado);
-
-            }
+            //xqe.executeQuery(cad);
+            
+            
+            XQResultSequence xqrs = xqe.executeQuery(cad);
+            resultado(xqrs);
+            xqrs = xqe.executeQuery(cad2);
+            resultado(xqrs);
+            xqrs = xqe.executeQuery(cad3);
+            resultado(xqrs);
+            xqe.executeCommand(cad4);
+            xqrs = xqe.executeQuery(cad5);
+            resultado(xqrs);
+            xqe.executeCommand(cad6);
+            xqrs = xqe.executeQuery(cad7);
+            resultado(xqrs);
+            xqrs = xqe.executeQuery(cad8);
+            resultado(xqrs);
+            
+            
         } catch (XQException e) {
             muestraErrorXQuery(e);
         } catch (Exception e) {
@@ -128,4 +137,19 @@ public class ExistDBConsultas {
         }
     }
 
+    private static void resultado(XQResultSequence xqrs) throws XQException{
+        int i = 1;
+            System.out.println(xqrs.toString());
+            while (xqrs.next()) {
+
+                System.out.println("Resultado " + (i++) + ":");
+                // Aquí utilizamos getItem() para obtener un XQItemAccessor
+                XQItemAccessor item = xqrs.getItem();
+                // Luego obtenemos el resultado como una cadena
+                String resultado = item.getItemAsString(null); // No es necesario pasar un Properties
+                System.out.println(resultado);
+
+            }
+        
+    }
 }
