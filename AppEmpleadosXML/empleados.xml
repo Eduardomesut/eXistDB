@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+    <empleado>
+        <codigo>1</codigo>
+        <nombre>Alfredo</nombre>
+        <direccion>Calle Mes</direccion>
+        <salario>1200.0</salario>
+        <comision>100.0</comision>
+    </empleado>
+    <empleado>
+        <codigo>2</codigo>
+        <nombre>Luis</nombre>
+        <direccion>Calle Mes</direccion>
+        <salario>1300.0</salario>
+        <comision>50.0</comision>
+    </empleado>
+    <empleado>
+        <codigo>3</codigo>
+        <nombre>Matt</nombre>
+        <direccion>Calle Mes</direccion>
+        <salario>1400.0</salario>
+        <comision>500.0</comision>
+    </empleado>
+    <empleado>
+        <codigo>4</codigo>
+        <nombre>Fred</nombre>
+        <direccion>Calle Mes</direccion>
+        <salario>1500.0</salario>
+        <comision>400.0</comision>
+    </empleado>
+</empleados>
