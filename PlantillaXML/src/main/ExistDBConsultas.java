@@ -78,7 +78,9 @@ public class ExistDBConsultas {
 
             //Contar cuántos libros pertenecen al género "Distopía":
             String cad6 = """
-                          
+                          let $numero := count(for $repe in doc('/db/pruebaexamen/biblioteca/novelas/Catalogo.xml')//catalogo/libro
+                          where $repe/genero = 'Distopía' return $repe)
+                          return concat('Libros de género Distopía: ', $numero)
                           """;
             //Obtener todos los libros publicados después del año 2000:
             String cad7 = """
@@ -87,7 +89,9 @@ public class ExistDBConsultas {
             
             //Listar todos los libros de un autor específico (por ejemplo, Gabriel García Márquez):
             String cad8 = """
-                         
+                         for $libro in doc ('/db/pruebaexamen/biblioteca/novelas/Catalogo.xml')//catalogo/libro
+                         where $libro/autor = 'Gabriel García Márquez'
+                         return $libro/titulo/text()
                           """;
 
             
@@ -99,7 +103,7 @@ public class ExistDBConsultas {
             //xqe.executeQuery(cad);
             
             
-            XQResultSequence xqrs = xqe.executeQuery(cad);
+            XQResultSequence xqrs = xqe.executeQuery(cad1);
             resultado(xqrs);
 //            xqrs = xqe.executeQuery(cad2);
 //            resultado(xqrs);
