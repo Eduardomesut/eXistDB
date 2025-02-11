@@ -1,0 +1,961 @@
+<catalogo>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <genero>Realismo mágico</genero>
+        <fecha_publicacion>1967</fecha_publicacion>
+        <editorial>Sudamericana</editorial>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <genero>Distopía</genero>
+        <fecha_publicacion>1949</fecha_publicacion>
+        <editorial>Secker Warburg</editorial>
+    </libro>
+    <libro>
+        <titulo>Don Quijote de la Mancha</titulo>
+        <autor>Miguel de Cervantes</autor>
+        <genero>Novela</genero>
+        <fecha_publicacion>1605</fecha_publicacion>
+        <editorial>Francisco de Robles</editorial>
+    </libro>
+    <libro>
+        <titulo>Crimen y castigo</titulo>
+        <autor>Fiódor Dostoyevski</autor>
+        <genero>Novela psicológica</genero>
+        <fecha_publicacion>1866</fecha_publicacion>
+        <editorial>The Russian Messenger</editorial>
+    </libro>
+    <libro>
+        <titulo>El gran Gatsby</titulo>
+        <autor>F. Scott Fitzgerald</autor>
+        <genero>Novela</genero>
+        <fecha_publicacion>1925</fecha_publicacion>
+        <editorial>Charles Scribner's Sons</editorial>
+    </libro>
+    <libro>
+        <titulo>Orgullo y prejuicio</titulo>
+        <autor>Jane Austen</autor>
+        <genero>Romance</genero>
+        <fecha_publicacion>1813</fecha_publicacion>
+        <editorial>T. Egerton</editorial>
+    </libro>
+    <libro>
+        <titulo>Moby-Dick</titulo>
+        <autor>Herman Melville</autor>
+        <genero>Aventura</genero>
+        <fecha_publicacion>1851</fecha_publicacion>
+        <editorial>Harper Brothers</editorial>
+    </libro>
+    <libro>
+        <titulo>Los miserables</titulo>
+        <autor>Victor Hugo</autor>
+        <genero>Drama</genero>
+        <fecha_publicacion>1862</fecha_publicacion>
+        <editorial>A. Lacroix, Verboeckhoven Cie.</editorial>
+    </libro>
+    <libro>
+        <titulo>La Odisea</titulo>
+        <autor>Homero</autor>
+        <genero>Épica</genero>
+        <fecha_publicacion>Aprox. siglo VIII a.C.</fecha_publicacion>
+        <editorial>Desconocida</editorial>
+    </libro>
+    <libro>
+        <titulo>Drácula</titulo>
+        <autor>Bram Stoker</autor>
+        <genero>Terror</genero>
+        <fecha_publicacion>1897</fecha_publicacion>
+        <editorial>Archibald Constable and Company</editorial>
+    </libro>
+    <libro>
+        <titulo>El retrato de Dorian Gray</titulo>
+        <autor>Oscar Wilde</autor>
+        <genero>Filosófica</genero>
+        <fecha_publicacion>1890</fecha_publicacion>
+        <editorial>Ward, Lock  Company</editorial>
+    </libro>
+    <libro>
+        <titulo>En busca del tiempo perdido</titulo>
+        <autor>Marcel Proust</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>1913</fecha_publicacion>
+        <editorial>Grasset</editorial>
+    </libro>
+    <libro>
+        <titulo>Ulises</titulo>
+        <autor>James Joyce</autor>
+        <genero>Modernismo</genero>
+        <fecha_publicacion>1922</fecha_publicacion>
+        <editorial>Sylvia Beach</editorial>
+    </libro>
+    <libro>
+        <titulo>El proceso</titulo>
+        <autor>Franz Kafka</autor>
+        <genero>Filosófica</genero>
+        <fecha_publicacion>1925</fecha_publicacion>
+        <editorial>Verlag Die Schmiede</editorial>
+    </libro>
+    <libro>
+        <titulo>Madame Bovary</titulo>
+        <autor>Gustave Flaubert</autor>
+        <genero>Realismo</genero>
+        <fecha_publicacion>1856</fecha_publicacion>
+        <editorial>Michel Lévy Frères</editorial>
+    </libro>
+    <libro>
+        <titulo>La divina comedia</titulo>
+        <autor>Dante Alighieri</autor>
+        <genero>Épica</genero>
+        <fecha_publicacion>Aprox. 1320</fecha_publicacion>
+        <editorial>Desconocida</editorial>
+    </libro>
+    <libro>
+        <titulo>La peste</titulo>
+        <autor>Albert Camus</autor>
+        <genero>Existencialismo</genero>
+        <fecha_publicacion>1947</fecha_publicacion>
+        <editorial>Éditions Gallimard</editorial>
+    </libro>
+    <libro>
+        <titulo>El secreto</titulo>
+        <autor>Rhonda Byrne</autor>
+        <genero>Autoayuda</genero>
+        <fecha_publicacion>2006</fecha_publicacion>
+        <editorial>Atria Books</editorial>
+    </libro>
+    <libro>
+        <titulo>Los hermanos Karamazov</titulo>
+        <autor>Fiódor Dostoyevski</autor>
+        <genero>Filosófica, Psicológica</genero>
+        <fecha_publicacion>1880</fecha_publicacion>
+        <editorial>The Russian Messenger</editorial>
+    </libro>
+    <libro>
+        <titulo>Crónica de una muerte anunciada</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <genero>Realismo mágico</genero>
+        <fecha_publicacion>1981</fecha_publicacion>
+        <editorial>Editorial Oveja Negra</editorial>
+    </libro>
+    <libro>
+        <titulo>Los juegos del hambre</titulo>
+        <autor>Suzanne Collins</autor>
+        <genero>Distopía, Ciencia ficción</genero>
+        <fecha_publicacion>2008</fecha_publicacion>
+        <editorial>Scholastic Press</editorial>
+    </libro>
+    <libro>
+        <titulo>El niño con el pijama de rayas</titulo>
+        <autor>John Boyne</autor>
+        <genero>Drama, Historia</genero>
+        <fecha_publicacion>2006</fecha_publicacion>
+        <editorial>David Fickling Books</editorial>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>2001</fecha_publicacion>
+        <editorial>Planeta</editorial>
+    </libro>
+    <libro>
+        <titulo>Harry Potter y la piedra filosofal</titulo>
+        <autor>J.K. Rowling</autor>
+        <genero>Fantástica</genero>
+        <fecha_publicacion>1997</fecha_publicacion>
+        <editorial>Bloomsbury</editorial>
+    </libro>
+    <libro>
+        <titulo>El nombre del viento</titulo>
+        <autor>Patrick Rothfuss</autor>
+        <genero>Fantasía épica</genero>
+        <fecha_publicacion>2007</fecha_publicacion>
+        <editorial>DAW Books</editorial>
+    </libro>
+    <libro>
+        <titulo>El señor de los anillos: La comunidad del anillo</titulo>
+        <autor>J.R.R. Tolkien</autor>
+        <genero>Fantasía</genero>
+        <fecha_publicacion>1954</fecha_publicacion>
+        <editorial>George Allen Unwin</editorial>
+    </libro>
+    <libro>
+        <titulo>La naranja mecánica</titulo>
+        <autor>Anthony Burgess</autor>
+        <genero>Distopía, Ciencia ficción</genero>
+        <fecha_publicacion>1962</fecha_publicacion>
+        <editorial>Heinemann</editorial>
+    </libro>
+    <libro>
+        <titulo>Sin noticias de Gurb</titulo>
+        <autor>Eduardo Mendoza</autor>
+        <genero>Humor</genero>
+        <fecha_publicacion>1991</fecha_publicacion>
+        <editorial>Seix Barral</editorial>
+    </libro>
+    <libro>
+        <titulo>El club de la lucha</titulo>
+        <autor>Chuck Palahniuk</autor>
+        <genero>Ficción contemporánea</genero>
+        <fecha_publicacion>1996</fecha_publicacion>
+        <editorial>W.W. Norton Company</editorial>
+    </libro>
+    <libro>
+        <titulo>El círculo</titulo>
+        <autor>Dave Eggers</autor>
+        <genero>Distopía</genero>
+        <fecha_publicacion>2013</fecha_publicacion>
+        <editorial>Knopf</editorial>
+    </libro>
+    <libro>
+        <titulo>V de Vendetta</titulo>
+        <autor>Alan Moore</autor>
+        <genero>Gráfica, Distopía</genero>
+        <fecha_publicacion>1988</fecha_publicacion>
+        <editorial>DC Comics</editorial>
+    </libro>
+    <libro>
+        <titulo>La casa de los espíritus</titulo>
+        <autor>Isabel Allende</autor>
+        <genero>Realismo mágico</genero>
+        <fecha_publicacion>1982</fecha_publicacion>
+        <editorial>Sudamericana</editorial>
+    </libro>
+    <libro>
+        <titulo>Las aventuras de Sherlock Holmes</titulo>
+        <autor>Arthur Conan Doyle</autor>
+        <genero>Misterio</genero>
+        <fecha_publicacion>1892</fecha_publicacion>
+        <editorial>George Newnes</editorial>
+    </libro>
+    <libro>
+        <titulo>Fahrenheit 451</titulo>
+        <autor>Ray Bradbury</autor>
+        <genero>Ciencia ficción, Distopía</genero>
+        <fecha_publicacion>1953</fecha_publicacion>
+        <editorial>Ballantine Books</editorial>
+    </libro>
+    <libro>
+        <titulo>El código Da Vinci</titulo>
+        <autor>Dan Brown</autor>
+        <genero>Misterio</genero>
+        <fecha_publicacion>2003</fecha_publicacion>
+        <editorial>Doubleday</editorial>
+    </libro>
+    <libro>
+        <titulo>El psicoanalista</titulo>
+        <autor>John Katzenbach</autor>
+        <genero>Thriller</genero>
+        <fecha_publicacion>2002</fecha_publicacion>
+        <editorial>Plaza y Janés</editorial>
+    </libro>
+    <libro>
+        <titulo>La chica del tren</titulo>
+        <autor>Paula Hawkins</autor>
+        <genero>Thriller</genero>
+        <fecha_publicacion>2015</fecha_publicacion>
+        <editorial>Riverhead Books</editorial>
+    </libro>
+    <libro>
+        <titulo>Los pilares de la Tierra</titulo>
+        <autor>Ken Follett</autor>
+        <genero>Histórica</genero>
+        <fecha_publicacion>1989</fecha_publicacion>
+        <editorial>Macmillan</editorial>
+    </libro>
+    <libro>
+        <titulo>El alquimista</titulo>
+        <autor>Paulo Coelho</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>1988</fecha_publicacion>
+        <editorial>Rocco</editorial>
+    </libro>
+    <libro>
+        <titulo>La carretera</titulo>
+        <autor>Cormac McCarthy</autor>
+        <genero>Post-apocalíptico</genero>
+        <fecha_publicacion>2006</fecha_publicacion>
+        <editorial>Alfred A. Knopf</editorial>
+    </libro>
+    <libro>
+        <titulo>El retrato de la señora X</titulo>
+        <autor>William Somerset Maugham</autor>
+        <genero>Drama</genero>
+        <fecha_publicacion>1920</fecha_publicacion>
+        <editorial>Heinemann</editorial>
+    </libro>
+    <libro>
+        <titulo>El nombre de la rosa</titulo>
+        <autor>Umberto Eco</autor>
+        <genero>Novela histórica, Misterio</genero>
+        <fecha_publicacion>1980</fecha_publicacion>
+        <editorial>Bompiani</editorial>
+    </libro>
+    <libro>
+        <titulo>La insoportable levedad del ser</titulo>
+        <autor>Milan Kundera</autor>
+        <genero>Filosófica</genero>
+        <fecha_publicacion>1984</fecha_publicacion>
+        <editorial>Editions Gallimard</editorial>
+    </libro>
+    <libro>
+        <titulo>El curioso incidente del perro a medianoche</titulo>
+        <autor>Mark Haddon</autor>
+        <genero>Misterio, Drama</genero>
+        <fecha_publicacion>2003</fecha_publicacion>
+        <editorial>Doubleday</editorial>
+    </libro>
+    <libro>
+        <titulo>La chica de la 305</titulo>
+        <autor>Pedro Pujante</autor>
+        <genero>Thriller</genero>
+        <fecha_publicacion>2014</fecha_publicacion>
+        <editorial>Almuzara</editorial>
+    </libro>
+    <libro>
+        <titulo>La ola</titulo>
+        <autor>Todd Strasser</autor>
+        <genero>Ficción, Social</genero>
+        <fecha_publicacion>1981</fecha_publicacion>
+        <editorial>Farrar Straus Giroux</editorial>
+    </libro>
+    <libro>
+        <titulo>El psicoanalista</titulo>
+        <autor>John Katzenbach</autor>
+        <genero>Thriller</genero>
+        <fecha_publicacion>2002</fecha_publicacion>
+        <editorial>Plaza y Janés</editorial>
+    </libro>
+    <libro>
+        <titulo>La casa de los conejos</titulo>
+        <autor>Laura Alcoba</autor>
+        <genero>Memorias, Ficción</genero>
+        <fecha_publicacion>2007</fecha_publicacion>
+        <editorial>Seix Barral</editorial>
+    </libro>
+    <libro>
+        <titulo>El jardín secreto</titulo>
+        <autor>Frances Hodgson Burnett</autor>
+        <genero>Infantil, Ficción</genero>
+        <fecha_publicacion>1911</fecha_publicacion>
+        <editorial>Frederick A. Stokes Company</editorial>
+    </libro>
+    <libro>
+        <titulo>El amor en los tiempos del cólera</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <genero>Romántico</genero>
+        <fecha_publicacion>1985</fecha_publicacion>
+        <editorial>Editorial Oveja Negra</editorial>
+    </libro>
+    <libro>
+        <titulo>La metamorfosis</titulo>
+        <autor>Franz Kafka</autor>
+        <genero>Ficción, Psicológica</genero>
+        <fecha_publicacion>1915</fecha_publicacion>
+        <editorial>Julius Green</editorial>
+    </libro>
+    <libro>
+        <titulo>El dios de las pequeñas cosas</titulo>
+        <autor>Arundhati Roy</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>1997</fecha_publicacion>
+        <editorial>Random House</editorial>
+    </libro>
+    <libro>
+        <titulo>Un mundo feliz</titulo>
+        <autor>Aldous Huxley</autor>
+        <genero>Ciencia ficción, Distopía</genero>
+        <fecha_publicacion>1932</fecha_publicacion>
+        <editorial>Chatto Windus</editorial>
+    </libro>
+    <libro>
+        <titulo>El perfume</titulo>
+        <autor>Patrick Süskind</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>1985</fecha_publicacion>
+        <editorial>Diogenes Verlag</editorial>
+    </libro>
+    <libro>
+        <titulo>El viejo y el mar</titulo>
+        <autor>Ernest Hemingway</autor>
+        <genero>Novela, Aventura</genero>
+        <fecha_publicacion>1952</fecha_publicacion>
+        <editorial>Charles Scribner's Sons</editorial>
+    </libro>
+    <libro>
+        <titulo>Los buitres de la Tierra</titulo>
+        <autor>José Antonio Ramos Sucre</autor>
+        <genero>Thriller</genero>
+        <fecha_publicacion>2003</fecha_publicacion>
+        <editorial>Ediciones B</editorial>
+    </libro>
+    <libro>
+        <titulo>La tregua</titulo>
+        <autor>Mario Benedetti</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>1960</fecha_publicacion>
+        <editorial>Alianza Editorial</editorial>
+    </libro>
+    <libro>
+        <titulo>Las intermitencias de la muerte</titulo>
+        <autor>José Saramago</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>2005</fecha_publicacion>
+        <editorial>Editorial Salamandra</editorial>
+    </libro>
+    <libro>
+        <titulo>La elegancia del erizo</titulo>
+        <autor>Muriel Barbery</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>2006</fecha_publicacion>
+        <editorial>Gallimard</editorial>
+    </libro>
+    <libro>
+        <titulo>El arte de la guerra</titulo>
+        <autor>Sun Tzu</autor>
+        <genero>Filosofía, Estrategia</genero>
+        <fecha_publicacion>Aprox. siglo V a.C.</fecha_publicacion>
+        <editorial>Desconocida</editorial>
+    </libro>
+    <libro>
+        <titulo>Crónicas de Narnia: El león, la bruja y el ropero</titulo>
+        <autor>C.S. Lewis</autor>
+        <genero>Fantasía</genero>
+        <fecha_publicacion>1950</fecha_publicacion>
+        <editorial>Geoffrey Bles</editorial>
+    </libro>
+    <libro>
+        <titulo>La ciudad de las bestias</titulo>
+        <autor>Isabel Allende</autor>
+        <genero>Aventura, Fantasía</genero>
+        <fecha_publicacion>2002</fecha_publicacion>
+        <editorial>Plaza y Janés</editorial>
+    </libro>
+    <libro>
+        <titulo>El niño con el pijama de rayas</titulo>
+        <autor>John Boyne</autor>
+        <genero>Drama, Historia</genero>
+        <fecha_publicacion>2006</fecha_publicacion>
+        <editorial>David Fickling Books</editorial>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <genero>Ficción, Misterio</genero>
+        <fecha_publicacion>2001</fecha_publicacion>
+        <editorial>Planeta</editorial>
+    </libro>
+    <libro>
+        <titulo>El perfume de la señora Xiang</titulo>
+        <autor>José Antonio Ramos Sucre</autor>
+        <genero>Ficción contemporánea</genero>
+        <fecha_publicacion>2012</fecha_publicacion>
+        <editorial>Ediciones B</editorial>
+    </libro>
+    <libro>
+        <titulo>Crónicas del viento</titulo>
+        <autor>Antonio Muñoz Molina</autor>
+        <genero>Ficción histórica</genero>
+        <fecha_publicacion>2007</fecha_publicacion>
+        <editorial>Seix Barral</editorial>
+    </libro>
+    <libro>
+        <titulo>La biblioteca de los muertos</titulo>
+        <autor>Glenn Kaplan</autor>
+        <genero>Thriller, Misterio</genero>
+        <fecha_publicacion>2013</fecha_publicacion>
+        <editorial>Ediciones B</editorial>
+    </libro>
+    <libro>
+        <titulo>El vendedor de muñecas</titulo>
+        <autor>José Luis Zárate</autor>
+        <genero>Realismo mágico</genero>
+        <fecha_publicacion>2011</fecha_publicacion>
+        <editorial>Alfaguara</editorial>
+    </libro>
+    <libro>
+        <titulo>La verdad sobre el caso Savolta</titulo>
+        <autor>Eduardo Mendoza</autor>
+        <genero>Novela histórica</genero>
+        <fecha_publicacion>1975</fecha_publicacion>
+        <editorial>Círculo de Lectores</editorial>
+    </libro>
+    <libro>
+        <titulo>Los ojos del hermano eterno</titulo>
+        <autor>Julio Ramón Ribeyro</autor>
+        <genero>Novela psicológica</genero>
+        <fecha_publicacion>1968</fecha_publicacion>
+        <editorial>Losada</editorial>
+    </libro>
+    <libro>
+        <titulo>Los pilares de la Tierra</titulo>
+        <autor>Ken Follett</autor>
+        <genero>Histórica</genero>
+        <fecha_publicacion>1989</fecha_publicacion>
+        <editorial>Crítica</editorial>
+    </libro>
+    <libro>
+        <titulo>El retrato de la dama</titulo>
+        <autor>Henry James</autor>
+        <genero>Ficción psicológica</genero>
+        <fecha_publicacion>1881</fecha_publicacion>
+        <editorial>Macmillan</editorial>
+    </libro>
+    <libro>
+        <titulo>La catedral del mar</titulo>
+        <autor>Idelfonso Falcones</autor>
+        <genero>Histórica, Drama</genero>
+        <fecha_publicacion>2006</fecha_publicacion>
+        <editorial>Grijalbo</editorial>
+    </libro>
+    <libro>
+        <titulo>Las chicas de alambre</titulo>
+        <autor>Javier Cercas</autor>
+        <genero>Novela, Ficción</genero>
+        <fecha_publicacion>1992</fecha_publicacion>
+        <editorial>Random House</editorial>
+    </libro>
+    <libro>
+        <titulo>Las venas abiertas de América Latina</titulo>
+        <autor>Eduardo Galeano</autor>
+        <genero>Ensayo</genero>
+        <fecha_publicacion>1971</fecha_publicacion>
+        <editorial>Siglo XXI</editorial>
+    </libro>
+    <libro>
+        <titulo>El código Da Vinci</titulo>
+        <autor>Dan Brown</autor>
+        <genero>Thriller, Misterio</genero>
+        <fecha_publicacion>2003</fecha_publicacion>
+        <editorial>Doubleday</editorial>
+    </libro>
+    <libro>
+        <titulo>La última lección</titulo>
+        <autor>Randy Pausch</autor>
+        <genero>Autobiografía</genero>
+        <fecha_publicacion>2008</fecha_publicacion>
+        <editorial>Hyperion</editorial>
+    </libro>
+    <libro>
+        <titulo>La reina de las nieves</titulo>
+        <autor>Michael Cunningham</autor>
+        <genero>Novela contemporánea</genero>
+        <fecha_publicacion>2009</fecha_publicacion>
+        <editorial>Farrar, Straus and Giroux</editorial>
+    </libro>
+    <libro>
+        <titulo>Una vacante imprevista</titulo>
+        <autor>J.K. Rowling</autor>
+        <genero>Ficción, Contemporánea</genero>
+        <fecha_publicacion>2012</fecha_publicacion>
+        <editorial>Little, Brown and Company</editorial>
+    </libro>
+    <libro>
+        <titulo>La chica del tren</titulo>
+        <autor>Paula Hawkins</autor>
+        <genero>Thriller, Psicológico</genero>
+        <fecha_publicacion>2015</fecha_publicacion>
+        <editorial>Riverhead Books</editorial>
+    </libro>
+    <libro>
+        <titulo>El cuento de la criada</titulo>
+        <autor>Margaret Atwood</autor>
+        <genero>Distopía, Ficción</genero>
+        <fecha_publicacion>1985</fecha_publicacion>
+        <editorial>McClelland Stewart</editorial>
+    </libro>
+    <libro>
+        <titulo>La magia del orden</titulo>
+        <autor>Marie Kondo</autor>
+        <genero>Autoayuda</genero>
+        <fecha_publicacion>2011</fecha_publicacion>
+        <editorial>Kodansha</editorial>
+    </libro>
+    <libro>
+        <titulo>El príncipe</titulo>
+        <autor>Niccolò Machiavelli</autor>
+        <genero>Filosofía política</genero>
+        <fecha_publicacion>1513</fecha_publicacion>
+        <editorial>Desconocida</editorial>
+    </libro>
+    <libro>
+        <titulo>El retrato de una dama</titulo>
+        <autor>Henry James</autor>
+        <genero>Ficción psicológica</genero>
+        <fecha_publicacion>1881</fecha_publicacion>
+        <editorial>Macmillan</editorial>
+    </libro>
+    <libro>
+        <titulo>La carretera</titulo>
+        <autor>Cormac McCarthy</autor>
+        <genero>Distopía, Drama</genero>
+        <fecha_publicacion>2006</fecha_publicacion>
+        <editorial>Alfred A. Knopf</editorial>
+    </libro>
+    <libro>
+        <titulo>El nombre de la rosa</titulo>
+        <autor>Umberto Eco</autor>
+        <genero>Misterio, Historia</genero>
+        <fecha_publicacion>1980</fecha_publicacion>
+        <editorial>Bompiani</editorial>
+    </libro>
+    <libro>
+        <titulo>Las flores del mal</titulo>
+        <autor>Charles Baudelaire</autor>
+        <genero>Poesía</genero>
+        <fecha_publicacion>1857</fecha_publicacion>
+        <editorial>Publiación original por Poulet-Malassis</editorial>
+    </libro>
+    <libro>
+        <titulo>El alquimista</titulo>
+        <autor>Paulo Coelho</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>1988</fecha_publicacion>
+        <editorial>Rocco</editorial>
+    </libro>
+    <libro>
+        <titulo>En el camino</titulo>
+        <autor>Jack Kerouac</autor>
+        <genero>Ficción contemporánea</genero>
+        <fecha_publicacion>1957</fecha_publicacion>
+        <editorial>Viking Press</editorial>
+    </libro>
+    <libro>
+        <titulo>Un mundo feliz</titulo>
+        <autor>Aldous Huxley</autor>
+        <genero>Distopía</genero>
+        <fecha_publicacion>1932</fecha_publicacion>
+        <editorial>Chatto Windus</editorial>
+    </libro>
+    <libro>
+        <titulo>Las aventuras de Sherlock Holmes</titulo>
+        <autor>Arthur Conan Doyle</autor>
+        <genero>Misterio, Policial</genero>
+        <fecha_publicacion>1892</fecha_publicacion>
+        <editorial>George Newnes</editorial>
+    </libro>
+    <libro>
+        <titulo>El juego del ángel</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <genero>Ficción, Misterio</genero>
+        <fecha_publicacion>2008</fecha_publicacion>
+        <editorial>Planeta</editorial>
+    </libro>
+    <libro>
+        <titulo>El arte de la guerra</titulo>
+        <autor>Sun Tzu</autor>
+        <genero>Filosofía, Estrategia</genero>
+        <fecha_publicacion>Aprox. siglo V a.C.</fecha_publicacion>
+        <editorial>Desconocida</editorial>
+    </libro>
+    <libro>
+        <titulo>El hombre en busca de sentido</titulo>
+        <autor>Viktor Frankl</autor>
+        <genero>Psicología, Filosofía</genero>
+        <fecha_publicacion>1946</fecha_publicacion>
+        <editorial>Rinehart Company</editorial>
+    </libro>
+    <libro>
+        <titulo>La peste</titulo>
+        <autor>Albert Camus</autor>
+        <genero>Ficción, Filosofía</genero>
+        <fecha_publicacion>1947</fecha_publicacion>
+        <editorial>Gallimard</editorial>
+    </libro>
+    <libro>
+        <titulo>La casa de los espíritus</titulo>
+        <autor>Isabel Allende</autor>
+        <genero>Realismo mágico</genero>
+        <fecha_publicacion>1982</fecha_publicacion>
+        <editorial>Sudamericana</editorial>
+    </libro>
+    <libro>
+        <titulo>Cumbres borrascosas</titulo>
+        <autor>Emily Brontë</autor>
+        <genero>Novela gótica</genero>
+        <fecha_publicacion>1847</fecha_publicacion>
+        <editorial>Thomas Cautley Newby</editorial>
+    </libro>
+    <libro>
+        <titulo>Fahrenheit 451</titulo>
+        <autor>Ray Bradbury</autor>
+        <genero>Distopía</genero>
+        <fecha_publicacion>1953</fecha_publicacion>
+        <editorial>Ballantine Books</editorial>
+    </libro>
+    <libro>
+        <titulo>Un viaje al centro de la Tierra</titulo>
+        <autor>Jules Verne</autor>
+        <genero>Aventura, Ciencia ficción</genero>
+        <fecha_publicacion>1864</fecha_publicacion>
+        <editorial>Hetzel</editorial>
+    </libro>
+    <libro>
+        <titulo>Ficciones</titulo>
+        <autor>Jorge Luis Borges</autor>
+        <genero>Ficción, Fantasía</genero>
+        <fecha_publicacion>1944</fecha_publicacion>
+        <editorial>Sur</editorial>
+    </libro>
+    <libro>
+        <titulo>Trilogía de la guerra</titulo>
+        <autor>Erich Maria Remarque</autor>
+        <genero>Ficción bélica</genero>
+        <fecha_publicacion>1929</fecha_publicacion>
+        <editorial>Allgemeiner Verlag</editorial>
+    </libro>
+    <libro>
+        <titulo>El corazón de las tinieblas</titulo>
+        <autor>Joseph Conrad</autor>
+        <genero>Aventura, Filosofía</genero>
+        <fecha_publicacion>1899</fecha_publicacion>
+        <editorial>William Blackwood and Sons</editorial>
+    </libro>
+    <libro>
+        <titulo>La tregua</titulo>
+        <autor>Mario Benedetti</autor>
+        <genero>Ficción, Drama</genero>
+        <fecha_publicacion>1960</fecha_publicacion>
+        <editorial>Alfaguara</editorial>
+    </libro>
+    <libro>
+        <titulo>La naranja mecánica</titulo>
+        <autor>Anthony Burgess</autor>
+        <genero>Distopía, Ciencia ficción</genero>
+        <fecha_publicacion>1962</fecha_publicacion>
+        <editorial>Heinemann</editorial>
+    </libro>
+    <libro>
+        <titulo>El viejo y el mar</titulo>
+        <autor>Ernest Hemingway</autor>
+        <genero>Novela, Drama</genero>
+        <fecha_publicacion>1952</fecha_publicacion>
+        <editorial>Scribner</editorial>
+    </libro>
+    <libro>
+        <titulo>La última palabra</titulo>
+        <autor>Lisette Alvarez</autor>
+        <genero>Drama</genero>
+        <fecha_publicacion>2016</fecha_publicacion>
+        <editorial>Random House</editorial>
+    </libro>
+    <libro>
+        <titulo>Los detectives salvajes</titulo>
+        <autor>Roberto Bolaño</autor>
+        <genero>Novela contemporánea</genero>
+        <fecha_publicacion>1998</fecha_publicacion>
+        <editorial>Anagrama</editorial>
+    </libro>
+    <libro>
+        <titulo>El gran hermano</titulo>
+        <autor>George Orwell</autor>
+        <genero>Distopía</genero>
+        <fecha_publicacion>1949</fecha_publicacion>
+        <editorial>Secker Warburg</editorial>
+    </libro>
+    <libro>
+        <titulo>El hombre que calculaba</titulo>
+        <autor>Malba Tahan</autor>
+        <genero>Matemáticas, Ficción</genero>
+        <fecha_publicacion>1938</fecha_publicacion>
+        <editorial>Brasiliense</editorial>
+    </libro>
+    <libro>
+        <titulo>La casa de papel</titulo>
+        <autor>Álex Pina</autor>
+        <genero>Thriller</genero>
+        <fecha_publicacion>2017</fecha_publicacion>
+        <editorial>Desconocida</editorial>
+    </libro>
+    <libro>
+        <titulo>La metamorfosis</titulo>
+        <autor>Franz Kafka</autor>
+        <genero>Ficción, Fantasía</genero>
+        <fecha_publicacion>1915</fecha_publicacion>
+        <editorial>Querido</editorial>
+    </libro>
+    <libro>
+        <titulo>El código secreto</titulo>
+        <autor>Dan Brown</autor>
+        <genero>Misterio, Thriller</genero>
+        <fecha_publicacion>2000</fecha_publicacion>
+        <editorial>Doubleday</editorial>
+    </libro>
+    <libro>
+        <titulo>El secreto</titulo>
+        <autor>Rhonda Byrne</autor>
+        <genero>Autoayuda</genero>
+        <fecha_publicacion>2006</fecha_publicacion>
+        <editorial>Atria Books</editorial>
+    </libro>
+    <libro>
+        <titulo>Cero K</titulo>
+        <autor>Don DeLillo</autor>
+        <genero>Ficción</genero>
+        <fecha_publicacion>2016</fecha_publicacion>
+        <editorial>Scribner</editorial>
+    </libro>
+    <libro>
+        <titulo>La conjura de los necios</titulo>
+        <autor>John Kennedy Toole</autor>
+        <genero>Comedia, Ficción</genero>
+        <fecha_publicacion>1980</fecha_publicacion>
+        <editorial>Louisiana State University Press</editorial>
+    </libro>
+    <libro>
+        <titulo>El cielo de Lima</titulo>
+        <autor>Juan Gómez Bárcena</autor>
+        <genero>Novela histórica</genero>
+        <fecha_publicacion>2014</fecha_publicacion>
+        <editorial>Alfaguara</editorial>
+    </libro>
+    <libro>
+        <titulo>El laberinto de los espíritus</titulo>
+        <autor>Carlos Ruiz Zafón</autor>
+        <genero>Ficción, Misterio</genero>
+        <fecha_publicacion>2016</fecha_publicacion>
+        <editorial>Planeta</editorial>
+    </libro>
+    <libro>
+        <titulo>La sombra de los otros</titulo>
+        <autor>Juan José Saer</autor>
+        <genero>Ficción contemporánea</genero>
+        <fecha_publicacion>1994</fecha_publicacion>
+        <editorial>Seix Barral</editorial>
+    </libro>
+    <libro>
+        <titulo>Los hombres que no amaban a las mujeres</titulo>
+        <autor>Stieg Larsson</autor>
+        <genero>Thriller</genero>
+        <fecha_publicacion>2005</fecha_publicacion>
+        <editorial>Norstedts Förlag</editorial>
+    </libro>
+    <libro>
+        <titulo>El último de los moicanos</titulo>
+        <autor>James Fenimore Cooper</autor>
+        <genero>Aventura</genero>
+        <fecha_publicacion>1826</fecha_publicacion>
+        <editorial>Lea and Blanchard</editorial>
+    </libro>
+    <libro>
+        <titulo>La hija del tiempo</titulo>
+        <autor>Josephine Tey</autor>
+        <genero>Policíaco, Misterio</genero>
+        <fecha_publicacion>1951</fecha_publicacion>
+        <editorial>William Morrow</editorial>
+    </libro>
+    <libro>
+        <titulo>El club Dumas</titulo>
+        <autor>Arturo Pérez-Reverte</autor>
+        <genero>Misterio, Thriller</genero>
+        <fecha_publicacion>1993</fecha_publicacion>
+        <editorial>Alfaguara</editorial>
+    </libro>
+    <libro>
+        <titulo>La ciudad de las bestias</titulo>
+        <autor>Isabel Allende</autor>
+        <genero>Aventura, Juvenil</genero>
+        <fecha_publicacion>2002</fecha_publicacion>
+        <editorial>Sudamericana</editorial>
+    </libro>
+    <libro>
+        <titulo>El maestro y Margarita</titulo>
+        <autor>Mijaíl Bulgákov</autor>
+        <genero>Ficción, Fantasía</genero>
+        <fecha_publicacion>1967</fecha_publicacion>
+        <editorial>Molodaya Gvardiya</editorial>
+    </libro>
+    <libro>
+        <titulo>Los ojos del perro siberiano</titulo>
+        <autor>Antonio Santa Ana</autor>
+        <genero>Ficción contemporánea</genero>
+        <fecha_publicacion>1998</fecha_publicacion>
+        <editorial>Alfaguara</editorial>
+    </libro>
+    <libro>
+        <titulo>La chica del tren</titulo>
+        <autor>Pau Hawkins</autor>
+        <genero>Thriller psicológico</genero>
+        <fecha_publicacion>2015</fecha_publicacion>
+        <editorial>Riverhead Books</editorial>
+    </libro>
+    <libro>
+        <titulo>El perro de los Baskerville</titulo>
+        <autor>Arthur Conan Doyle</autor>
+        <genero>Misterio, Policial</genero>
+        <fecha_publicacion>1902</fecha_publicacion>
+        <editorial>George Newnes</editorial>
+    </libro>
+    <libro>
+        <titulo>La caída de los gigantes</titulo>
+        <autor>Ken Follett</autor>
+        <genero>Histórica, Drama</genero>
+        <fecha_publicacion>2010</fecha_publicacion>
+        <editorial>Macmillan</editorial>
+    </libro>
+    <libro>
+        <titulo>Cielo nocturno</titulo>
+        <autor>Alessandro Baricco</autor>
+        <genero>Novela, Ficción</genero>
+        <fecha_publicacion>1995</fecha_publicacion>
+        <editorial>Rizzoli</editorial>
+    </libro>
+    <libro>
+        <titulo>El hombre duplicado</titulo>
+        <autor>José Saramago</autor>
+        <genero>Ficción contemporánea</genero>
+        <fecha_publicacion>2002</fecha_publicacion>
+        <editorial>Editorial Caminho</editorial>
+    </libro>
+    <libro>
+        <titulo>El misterio de la cripta embrujada</titulo>
+        <autor>Eduardo Mendoza</autor>
+        <genero>Comedia, Misterio</genero>
+        <fecha_publicacion>1992</fecha_publicacion>
+        <editorial>Seix Barral</editorial>
+    </libro>
+    <libro>
+        <titulo>El día que se perdió la cordura</titulo>
+        <autor>Javier Castillo</autor>
+        <genero>Thriller, Policíaco</genero>
+        <fecha_publicacion>2017</fecha_publicacion>
+        <editorial>Montena</editorial>
+    </libro>
+    <libro>
+        <titulo>Un hombre llamado Ove</titulo>
+        <autor>Fredrik Backman</autor>
+        <genero>Ficción, Drama</genero>
+        <fecha_publicacion>2012</fecha_publicacion>
+        <editorial>Forum</editorial>
+    </libro>
+    <libro>
+        <titulo>La colina de los ángeles</titulo>
+        <autor>María Dueñas</autor>
+        <genero>Romántica, Ficción histórica</genero>
+        <fecha_publicacion>2017</fecha_publicacion>
+        <editorial>Planeta</editorial>
+    </libro>
+    <libro>
+        <titulo>La isla del tesoro</titulo>
+        <autor>Robert Louis Stevenson</autor>
+        <genero>Aventura, Clásico</genero>
+        <fecha_publicacion>1883</fecha_publicacion>
+        <editorial>Cassell Co</editorial>
+    </libro>
+    <libro>
+        <titulo>Frankenstein</titulo>
+        <autor>Mary Shelley</autor>
+        <genero>Gótico, Ciencia ficción</genero>
+        <fecha_publicacion>1818</fecha_publicacion>
+        <editorial>G. and W. B. Whittaker</editorial>
+    </libro>
+    <libro>
+        <titulo>La librería de las nuevas oportunidades</titulo>
+        <autor>Emma Straub</autor>
+        <genero>Ficción, Drama</genero>
+        <fecha_publicacion>2014</fecha_publicacion>
+        <editorial>Riverhead Books</editorial>
+    </libro>
+</catalogo>
