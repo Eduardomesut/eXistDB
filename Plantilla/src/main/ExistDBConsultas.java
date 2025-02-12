@@ -64,16 +64,38 @@ public class ExistDBConsultas {
                           """;
             //Actualizar todos los libros publicados antes de 1900 y agregar un atributo clasico="true"
             String cad3 = """
-                          
+                          for $libro in doc("Catalogo.xml")//libro[number($libro/fecha_publicacion) < 1900]
+                          return 
+                              insert attribute clasico {"true"} into $libro
                           """;
             
             //Insertar un nuevo libro solo si no existe uno con el mismo título
             String cad4 = """
+                          let $nuevoLibro := 
+                              <libro>
+                                  <titulo>Dune</titulo>
+                                  <autor>Frank Herbert</autor>
+                                  <genero>Ciencia ficción</genero>
+                                  <fecha_publicacion>1965</fecha_publicacion>
+                                  <editorial>Chilton Books</editorial>
+                              </libro>
                           
+                          return 
+                              if (empty(doc("Catalogo.xml")//libro[titulo = $nuevoLibro/titulo])) 
+                              then insert node $nuevoLibro into doc("Catalogo.xml")/catalogo
+                              else ()
                           """;
             //Eliminar todos los libros con género "Autoayuda" y devolver la lista de eliminados
             String cad5 = """
-                          
+                          let $librosAEliminar := doc("Catalogo.xml")//libro[genero="Autoayuda"]
+                          return (
+                              for $libro in $librosAEliminar
+                              return <eliminado>
+                                          <titulo>{$libro/titulo/text()}</titulo>
+                                          <autor>{$libro/autor/text()}</autor>
+                                     </eliminado>,
+                              delete nodes $librosAEliminar
+                          )
                           """;
 
             //Contar cuántos libros pertenecen al género "Distopía":
@@ -84,7 +106,9 @@ public class ExistDBConsultas {
                           """;
             //Obtener todos los libros publicados después del año 2000:
             String cad7 = """
-                          
+                          for $titulo in doc('/db/pruebaexamen/biblioteca/novelas/Catalogo.xml')//catalogo/libro
+                          where $titulo/fecha_publicacion = '2000' 
+                          return $titulo/titulo
                           """;
             
             //Listar todos los libros de un autor específico (por ejemplo, Gabriel García Márquez):
@@ -103,7 +127,7 @@ public class ExistDBConsultas {
             //xqe.executeQuery(cad);
             
             
-            XQResultSequence xqrs = xqe.executeQuery(cad1);
+            XQResultSequence xqrs = xqe.executeQuery(cad2);
             resultado(xqrs);
 //            xqrs = xqe.executeQuery(cad2);
 //            resultado(xqrs);
